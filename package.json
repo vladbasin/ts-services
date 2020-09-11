@@ -1,9 +1,13 @@
 {
     "name": "@vladbasin/ts-services",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Useful cross-cutting functionality services",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladbasin/ts-services.git"
+    },
     "scripts": {
         "prepublishOnly": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
     },
